@@ -13,3 +13,57 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+    box-sizing: border-box;
+ }
+
+ #promo{
+    background-color: #9E3032;
+ }
+ 
+ .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ @font-face {
+  font-family: "Nunito Sans", sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap);
+}
+
+p{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    height: 6vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#5B6832 ;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+
+.p1{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5vw;
+}
+
+
+
